@@ -23,9 +23,7 @@ public class HelloController {
 		ModelAndView model = new ModelAndView();
 		model.setViewName("hello");
 		model.addObject("msg", name);
-
 		return model;
-
 	}
 	
 	@RequestMapping(value = "/first", method = RequestMethod.GET)
