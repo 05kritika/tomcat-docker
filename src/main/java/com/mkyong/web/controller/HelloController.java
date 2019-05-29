@@ -31,8 +31,8 @@ public class HelloController {
 
 		model.addAttribute("message", "Spring 3 MVC Hello Worlds");
 		return "first";
-	user=rishabh
-	password=rishabh123
+	
+	
 	}
 
 }
